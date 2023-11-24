@@ -1,0 +1,179 @@
+
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  p {
+    color: #ba3a3a;
+  }
+  
+  /* Headings */
+  
+  .big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.2rem;
+    line-height: 1.5;
+  }
+  
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  /* Containers */
+  
+  .container-fluid{
+    padding: 7% 15%;
+  }
+  
+  /* Sections */
+  
+  .colored-section {
+    background-color:#323232;
+    color: #fff;
+  }
+  
+  .black-section {
+    background-color: #000000;
+  }
+  
+  /* Navigation Bar */
+  
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  
+  .navbar-brand {
+    font-family: 'Montserrat-Black';
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.5rem;
+    font-family: "Montserrat-Light";
+  }
+  
+ /* Buttons */
+
+.instagram-button {
+  margin: 5% 3% 5% 0;
+}
+  
+  /* Title Section */
+  
+  #title {
+    background-image: url("images/DJ-Landry.jpeg");
+    color: #fff;
+    text-align: left;
+  }
+  
+  #title .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Title Image */
+  
+  .title-image {
+    width: 70%;
+   
+    transform: rotate(-25deg);
+    position: absolute;
+    right: 20%;
+    border-radius: 5px;
+  }
+  .logoimage{
+    width: 20%;
+    height:20%;
+    
+  }
+  /* Features Section */
+  
+  #features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    color:#FF1216;
+  }
+  
+  .feature-box {
+    padding: 4.5%;
+  }
+  
+  .icon {
+    color: #FF1216;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color: #ff4c68;
+  }
+  
+  /* Testimonial Section */
+  
+  #testimonials {
+    background-image: url("images/DJ-Landry.jpeg");
+  }
+  
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  /* About me section */
+  .about-me{
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
+   
+
+  }
+  .DJ-landrybl {
+ 
+padding-top: 6rem;
+width: 50%;
+height: 50%;
+filter: drop-shadow(8px 8px 10px grey)
+  }
+   /* Contact section */
+   .contact{
+    color:black;
+    background-color: whitesmoke;
+    border:#FF1216 2px solid;
+    
+   }
+  /* Footer Section */
+  
+
+  
+  
+  @media (max-width: 1028px) {
+  
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
